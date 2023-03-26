@@ -54,5 +54,12 @@ public class Main {
         for(int number:arrayOfNumbers){
             System.out.println(number);
         }
+//        Using do while loops
+        do{
+            System.out.println(age);
+            age--;
+        }
+        while (age>=44);
+
     }
 }
