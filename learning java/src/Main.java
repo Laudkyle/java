@@ -24,5 +24,16 @@ public class Main {
                 "I am kyle":
                 "I am KYLE";
         System.out.println(message);
+
+//        Using switches
+        int age = 41;
+        switch (age){
+            case 32:
+                System.out.println("I am younger");
+            case 44:
+                System.out.println("I am older");
+            default:
+        }
+
     }
 }
