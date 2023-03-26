@@ -1,5 +1,6 @@
 import java.lang.ref.Reference;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,6 +61,30 @@ public class Main {
             age--;
         }
         while (age>=44);
+//        Taking user input
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is your name ? ");
+        String userName = input.nextLine();
+        System.out.println("Your name is "+userName);
+
+        //      Creating and using objects
+            Phone iPhone =new Phone("iPhone12","Apple",16,256);
+        System.out.println(iPhone.name);
+
+
+    }
+    //        Working with classes
+    static class Phone{
+        String name;
+        String brand;
+        int ram;
+        int rom;
+        Phone(String name, String brand, int ram, int rom){
+         this.name =name;
+         this.brand = brand;
+         this.ram = ram;
+         this.rom = rom;
+        }
 
     }
 }
