@@ -1,4 +1,5 @@
 import java.lang.ref.Reference;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,5 +36,14 @@ public class Main {
             default:
         }
 
+//        Arrays
+        int [] arrayOfInt = new int[4];
+        arrayOfInt[0]=3;
+        arrayOfInt[2]=7;
+        arrayOfInt[1]=5;
+        System.out.println(Arrays.toString(arrayOfInt));
+//        Alternatively
+    int [] arrayOfNumbers ={3,6,8,1,8,4,3};
+        System.out.println(Arrays.toString(arrayOfNumbers));
     }
 }
