@@ -28,7 +28,7 @@ public class Main {
         System.out.println(message);
 
 //        Using switches
-        int age = 41;
+        int age = 44;
         switch (age){
             case 32:
                 System.out.println("I am younger");
@@ -69,6 +69,9 @@ public class Main {
 
         //      Creating and using objects
             Phone iPhone =new Phone("iPhone12","Apple",16,256);
+        System.out.println(iPhone.name);
+        String newName = "Iphone X";
+        iPhone.name = newName;
         System.out.println(iPhone.name);
 
 
