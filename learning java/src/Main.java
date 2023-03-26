@@ -45,5 +45,14 @@ public class Main {
 //        Alternatively
     int [] arrayOfNumbers ={3,6,8,1,8,4,3};
         System.out.println(Arrays.toString(arrayOfNumbers));
+
+//    Using loops - for i in range as used in python
+        for(int i=0;i<arrayOfNumbers.length-1;i++){
+            System.out.println(arrayOfNumbers[i]);
+        }
+//        Using for every element in list as used in python
+        for(int number:arrayOfNumbers){
+            System.out.println(number);
+        }
     }
 }
